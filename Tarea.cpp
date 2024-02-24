@@ -111,12 +111,12 @@ int main () {
 
             cout << "Ingresa un numero que sea mayor a 10 y menor que 30" << endl;
             cin >> Numerito;
-            while ((i < Numerito)) {
-                if ((i % 2 == 1))
-                    i++;
+            while (i < Numerito){
+                if (i % 2 == 1)
                 cout << i << endl;
-
-            } break;
+            } 
+            i++;
+            break;
     }
 
     //7.ESTRUCTURA DE CONTROL DE SELECCION SWITCH
