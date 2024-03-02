@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Hello, World!" << endl;
+
+    int i = 0, rest=3;
+    i++;
+
+    while ( i <= 33) {
+        i += rest;
+        cout << i << endl;
+        }
+
+    }
+
+
+
